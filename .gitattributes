@@ -4,3 +4,4 @@
 *.onnx binary
 *.dll binary
 *.exe binary
+*.png binary

@@ -1,0 +1,4 @@
+# Pinned so release builds stay reproducible. The project targets
+# x86_64-pc-windows-gnu, which links with MinGW-w64 (gcc 14+).
+[toolchain]
+channel = "1.99.1-x86_64-pc-windows-gnu"
