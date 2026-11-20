@@ -8,7 +8,7 @@
 
 **本地优先的 Windows 标签页整理工具。** 读取已连接的 Edge 配置，按标题和网址归类，预览 1–6 个窗口的整理结果，用本地快照恢复布局；也可选接入 DeepSeek 或兼容接口做 AI 再分组。桌面程序 1.0.0，配套连接扩展 0.2.0。
 
-![TabSort Lite 界面](docs/ui.png)
+<img src="docs/ui.png" width="460" alt="TabSort Lite 界面">
 
 ## 下载
 
