@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "TabSort Lite Connector",
+  "description": "Connects Edge to TabSort Lite for local tab organization.",
+  "version": "0.2.0",
+  "minimum_chrome_version": "120",
+  "incognito": "not_allowed",
+  "permissions": ["tabs", "tabGroups", "storage", "alarms", "nativeMessaging"],
+  "background": { "service_worker": "background.js", "type": "module" },
+  "action": { "default_title": "连接 TabSort Lite" },
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2A+Cc+al1SiTJvaRitcXeQWtJahjcle8Nmrm9Y7v+iUgP+1pSXPAGnCnMVscqTiU3GzW70Mydf/b0sBc0/lHHOlaUSswVKf/yaYoAVhHTBeyhZ3yLhPAbvwL65bxDKph05WkXskNVw8PuV1hifGC1/8uNg3tULmncXQFKYcgwf7TW0SlIAfILCLOw3S3ZLPYn/+P1uvya/Fr0Ub63KHqKmAWClOV0qyZk3ZeQQnR5dI68lU7GsZQDtm9QWPsEWuvsHqUTxuWfCsPlW2rU8hvKHswjkOnYIanMUGXdVn8Axgi25N5gOdFCjsWIXahFLTcqiD87gJsVwLpOv+1v0mYIwIDAQAB"
+}
